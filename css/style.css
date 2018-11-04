@@ -1,0 +1,692 @@
+ /**{
+    box-sizing: border-box; 
+}*/
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    color: white;
+    z-index: 20;
+    
+    
+}
+
+.logo{
+    padding: 10px 10px;
+    text-align:left;
+} 
+
+.img-logo{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    text-align: left;
+}
+
+img{
+    position: absolute;
+    width: 100%;
+   /* padding: 10px 10px;*/
+    padding-left: 0;
+    margin-left: 0;
+    }
+       
+
+nav.topnav{
+    float: right;
+    text-align: right;
+    padding: 10px 10px;
+    margin-top: 10px;
+    padding-right: 20px;
+    }
+    
+a.nav{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+}
+   
+#Topimg{
+    position: relative;
+    background: black;
+    min-height: 500px;
+    height: 100vh;
+    width:100vw;
+    background: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/hcjr2.png");
+    background-position: center; 
+    background-size: cover; 
+    border-bottom: 2px solid black;
+    
+}
+
+.title{
+    padding: 200px 0 80px;
+    text-align: right;
+}
+
+h1{
+    font-family: 'Rozha One';
+    text-transform: uppercase;
+    color:white;
+    font-weight: 300;
+    font-size: 3.5rem;
+    padding-right: 100px;
+    text-align: right;
+}
+        
+    
+h5{
+    text-transform: uppercase;
+    color:white;
+    font-weight: 300;
+    padding-right: 30px;
+    font-size:1.12rem;
+    text-align: right;
+    letter-spacing: .8em;
+}
+
+
+.contact{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    text-align: right;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: right;
+}
+
+strong{
+    font-weight: 700;
+    color: white;
+    padding-right: 100px;
+    font-size: 1.25rem;
+    text-align: right;
+}
+
+.hours{
+    text-align: right;
+}
+
+.booking{
+    margin-bottom: 20px;
+    padding-right: 100px;
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+    padding-right: 5px;
+    text-align: right;
+}
+
+#OurStory{
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Rozha One';
+    text-transform: capitalize;
+}
+
+
+.quote{
+    color: black;
+    margin: 0.5rem 0 3rem;
+}
+
+.name{
+    font-weight: 700;
+    color: black;
+}
+
+p.ours{
+    font-size: 1.5rem;
+}
+            
+   
+
+.reserve-btn{
+    background-color: green;
+    font-family:Rozha+One;
+    padding: 20px 30px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    font-size: 15px;
+}
+
+.reserve-btn:hover{
+    background: yellow;
+    color: black;
+}
+
+.grid-container{
+    display:grid;
+}
+    
+
+.video-img{
+    max-width:420px;
+    height: 420px;
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), 
+    url("/img/oxgoat.jpg");
+    background-position: center ; 
+    background-size: cover; 
+    margin: 0 auto;
+}
+
+.comp-title{
+    color:black;
+    text-align: left;
+    letter-spacing: 1em;
+}
+
+#SpecialMenu{
+    padding: 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image:url("/img/jabk.jpg");
+    width:100%;
+    height:800px;
+    background-position:  center ; 
+    background-repeat: repeat;
+}
+
+.spec-title{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    letter-spacing: .8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h6{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+    
+
+.box{
+    background: #fff;
+    padding: 15px;
+    width:100%;
+    height: auto;
+}
+
+.box1-img{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/jerk.jpg");
+    background-position:  center ; 
+    background-size: cover; 
+    position: relative;
+    margin-bottom: 75px;
+}
+.box2-img{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/curry.jpg");
+    background-position:  center ; 
+    background-size: cover; 
+    position: relative;
+    margin-bottom: 75px;
+}
+.box3-img{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/brown.png");
+    background-position:  center ; 
+    background-size: cover; 
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.price-circle{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    font-family:'Rozha One' ;
+    font-size: 1.75rem;
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.41);
+
+}
+.title{
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    
+
+}
+.details{
+    font-weight: 300;
+    font-size: .9rem;
+    text-align: center;
+    line-height: 2;
+    margin: 0;
+}
+    
+
+.boxes{
+    padding-bottom: 50px;
+}
+
+.middle{
+    text-align: center;
+}
+
+a.linky {
+    display:block;
+    padding-top: 10px;
+    color: #fff;
+    font-family: 'Rozha One';
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+a.linky:hover{
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.box-title{
+    display: block;
+    color:black;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 2;
+    margin: 0;
+}
+
+
+#RandomQuote{
+    height: 400px;
+    padding: 40px 0;
+    background-position: center ; 
+    background-size: cover; 
+    margin-top: 2px;
+    border-top: 3px solid black;
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%),url("/img/cooking.png");
+
+    }
+
+.quote1{
+    color:white;
+    font-size: 3.75rem;
+    text-align: center;
+}
+
+p.author{
+    color:white;
+     font-size: 1.25rem;
+     font-weight: 300;
+     text-transform: capitalize;
+     text-align: center;
+ }
+
+ #Reviews{
+    padding: 50px 0;
+    text-align: right;
+    padding-bottom: 70px;
+ }
+
+ .rev-title{
+     text-align: right;
+     color:black;
+     padding-right: 50px;
+     padding-top: 50px;
+ }
+
+ h1.accolades{
+     color: black;
+     line-height: 1;
+     padding-right: 50px;
+ }
+.side-img{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    text-align: left;
+}
+
+img{
+    position: absolute;
+    /*max-width: 600px;*/
+    width: 100%;
+}
+
+   
+
+h4{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.author{
+    font-size: .8rem;
+    font-weight: 300;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+strong{
+    color:white;
+    font-weight: 700;
+}
+
+p.review{
+    font-size:1.5rem;
+    padding-right: 50px;
+}
+
+/*.unslider-arrow{
+	margin-top:-350px;
+	color:#fff;
+}
+
+.unslider-arrow .fa{
+	font-size:45px;
+	opacity: 0.3;
+}*/
+
+
+/*.fa-arrow-left, .fa-arrow-right{
+    font-size: 45px;
+    padding: 20px 10px;
+    cursor: pointer;
+    color: black;
+    padding-right: 50px;
+
+}*/
+
+.unslider-arrow.prev, .unslider-arrow.next{
+    font-size: 45px;
+}
+
+i.fa.fa-3.fa-arrow-circle-right:hover, i.fa.fa-3.fa-arrow-circle-left:hover{
+        color:green;
+}
+
+#ContactUs{
+    padding: 50px 0;
+    background: grey;
+}
+
+.name,.contact-title{
+    text-align: center;
+}
+
+
+.content-box{
+    padding: 20px 20px 20px 20px;
+    background: white;
+    height: auto;
+    margin-bottom: 75px;
+}
+
+
+.contact-title{
+    font-family: Rozha+One ;
+    font-size: 1.12rem;
+    margin-top: 0;
+    letter-spacing: .1;
+    color:black;
+}
+
+.name{
+    font-weight: 200;
+}
+
+.city{
+    text-align: left;
+    font-size: 1.7rem;
+    color:black;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-top:10px;
+}
+
+.address{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    line-height: 1.7;
+}
+
+strong.email, p.email{
+    text-align: left;
+    font-size: 1.5rem;
+    color:black;
+    font-weight: 600;
+}
+
+.contact-phone{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+}
+
+.lunch{
+    text-align: left;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.dinner{
+    text-align: left;
+    font-size: 1.5rem;
+    color: black;
+    line-height: 1.7;
+}
+.contact-info{
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: black;
+    line-height: 1.7;
+}
+
+
+
+.number{
+    text-align: left;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: black;
+}
+
+.open-days{
+    font-weight: 600;
+    color: black;
+}
+           
+a.elink{
+    color: green;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+a.elink:hover{
+    color: #911A20;
+    font-weight: 600;
+}
+
+a.nav{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+a.nav:hover{
+    /*color:#911A20;*/
+    color: #ff0000;
+    font-weight: 600;
+}
+
+footer{
+    padding: 100px 0;
+    background: #131A22;
+    width: 100%;
+    text-align: center;
+}
+
+nav.menu{
+    display: inline-block;
+    margin: 0 auto 100px;
+    text-align: center
+}
+
+a.navvy{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 15px 15px 15px 0;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-size:1.25rem;
+}
+
+a.navvy:hover{
+    color:#911A20;
+    
+}
+    
+
+.social-media{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li.color{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+a.icons{
+    color:white;
+    transition: all 0.5s ease-in-out;
+}
+
+a.icons:hover{
+    color:#911A20;
+}
+
+.copyright{
+    color: white;
+}
+
+#fullmenu{
+    padding: 0;
+    margin:0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image:url("/img/jabk.jpg");
+    width:100%;
+    height:auto;
+    background-position:  center ; 
+    background-repeat: no-repeat;
+}
+
+.box-image{
+    width: 100%;
+    height: 725px;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image: url("/img/ClarMen.jpg");
+    background-repeat: no-repeat;
+    background-position:  center center; 
+    position: relative;
+    /*margin-bottom: 3px;*/
+}
+
+
+
+.full-title{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 50px;
+    letter-spacing: .8em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.box1{
+     background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+     border: black 2px solid;
+     margin-bottom: 50px;
+    
+}
+
+.busname{
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    color:white;
+    font-weight: 600;
+    font-size: 1.50rem;
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+
+
+            
+
+
+    
+
+    
+
+
