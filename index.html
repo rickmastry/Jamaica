@@ -7,39 +7,37 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="/css/font-awesome.css"  rel="stylesheet">
   <link href="/css/bootstrap-grid.css"  rel="stylesheet">
+  <!--<link href="/css/bootstrap.min.css"  rel="stylesheet">-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/jquery-ui.css">
   <link rel="stylesheet" href="/css/unslider.css">
   <link rel="stylesheet" href="/css/unslider-dots.css">
   <!--<link rel="stylesheet" href="/css/gridism.css">-->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2">
-                  <div class="logo">
-                    <div class="img-logo">
-                      <img src="/img/ClarendonLogo.png"/>
-                    </div>
-                  </div>
-              </div>
-              <div class="col-md-10">
-                <nav class="topnav">
-                    <a class="nav"href="index.html">Home</a>
-                    <a class="nav"href="#OurStory">Our Story</a>
-                    <a class="nav"href="#Reviews">Reviews</a>
-                    <a class="nav"href="#SpecialMenu">Special Menu</a>
-                    <a class="nav"href="#ContactUs">Contact Us</a>
-                </nav>
-              </div>  
-           </div>
+  <header>
+    <div class="head-container">
+      <div class="logo">
+        <div class="img-logo">
+          <img class="menu-logo" src="/img/ClarendonLogo.png"/>
+        </div>
           </div>
+          <nav class="topnav">
+            <ul class="navigation">
+              <li><a class="nav"href="index.html">Home</a></li>
+              <li><a class="nav"href="#OurStory">Our Story</a></li>
+              <li><a class="nav"href="#Reviews">Reviews</a></li>
+              <li><a class="nav"href="#SpecialMenu">Special Menu</a></li>
+              <li><a class="nav"href="#ContactUs">Contact Us</a></li>
+            </ul>
+          </nav>
+      </div>
       </header>
-    <section id="Topimg">
-        <div class="container">
+      <section id="Topimg">
+        <div class="top-container">
           <div class="title">
                 <h5 class="welcome">
                   Welcome To
@@ -49,18 +47,13 @@
                 </h1>
           </div>
             <div class="contact">
-              <div class="container">
                 <div class="booking">
-                    Contact Homestyle Cuisine Directly
-               
-                <h3>
-                    (843)-448-8000
-                </h3>
-              </div>
+                    <p>Contact Homestyle Cuisine Directly</p>
+                    <h3>(843)-448-8000</h3>
+                </div>
               <div class="hours">
                 <strong>Opening Hours: Sunday-Monday: 9am - 8pm</strong>
               </div>
-            </div>
           </div>
         </div>  
       </section> 
@@ -110,7 +103,7 @@
                         <p class="details">Smoked Curry chicken with rice & peas with cabbage</p>
                     </div>
                     <div class="middle">
-                      <a href="menu.html" class="linky">View Full Menu</a>
+                      <a href="menu.html" class="linky1">View Full Menu</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -121,6 +114,9 @@
                           <span class="box-title">Brown Stew Chicken</span>
                           <p class="details">Brown Stew Chicken with rice and peas with cabbage</p>
                       </div>
+                      <div class="middle">
+                          <a href="menu.html" class="linky2">View Full Menu</a>
+                        </div>
                   </div>
              </div> 
             </div>
@@ -135,12 +131,12 @@
           </div>  
         </section>
         <section id="Reviews">
-          <div class="container"> 
+          <div class="pic-container"> 
             <h5 class="rev-title">Reviews</h5>  
             <div class="row">
               <div class="col-md-7">
                 <div class="side-img">
-                  <img src="/img/chef_patrick.jpg" />
+                  <img class="pat" src="/img/chef_patrick.jpg" />
                 </div>
               </div>
               <div class="col-md-5">
@@ -221,13 +217,12 @@
         <footer>
           <div class="container">
             <nav class="menu">
-              <a class="nav"href="index.html">Home</a>
+              <a class="navvy"href="index.html">Home</a>
               <a class="navvy"href="#OurStory">Our Story</a>
               <a class="navvy"href="#Reviews">Reviews</a>
               <a class="navvy"href="#SpecialMenu">Special Menu</a>
               <a class="navvy"href="#ContactUs">Contact Us</a>
             </nav>
-  
             <ul class="social-media">
                <li class="color">
                  <a class="icons" href="http://www.facebook.com/ClarendonCuisine/" target="new"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
@@ -244,8 +239,7 @@
             </ul>
   
             <div class="copyright">
-               Copyright © 2018
-            
+              <p>Copyright © 2018</p>
             </div>
           </div>
       
