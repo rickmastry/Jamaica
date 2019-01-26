@@ -113,7 +113,7 @@ a.nav{
 }
 
 a.nav:hover{
-    color:#911A20;
+    color:rgb(243, 45, 55);
 }
 
 .navigation{
@@ -509,7 +509,7 @@ a.linky1 {
 }
 
 a.linky1:hover{
-    color: #ff0000;
+    color: rgb(243, 45, 55);
 }
 
 a.linky2 {
@@ -524,7 +524,7 @@ a.linky2 {
 }
 
 a.linky2:hover{
-    color: #ff0000;
+    color: rgb(243, 45, 55);
 }
 
 .box-title{
@@ -688,6 +688,10 @@ i.fa.fa-3.fa-arrow-circle-right:hover, i.fa.fa-3.fa-arrow-circle-left:hover{
     background: grey;
 }
 
+hr{
+   margin-right: 80px;
+}
+
 .name,.contact-title{
     text-align: center;
 }
@@ -710,6 +714,20 @@ h5.contact-title{
 }
 
 .name{
+    font-weight: 200;
+    padding:0;
+    margin:0;
+}
+.name-middle{
+    margin-top:3px;
+    margin-bottom:3px;
+    text-align:center;
+    font-weight: 200;
+}
+.name-bottom{
+    margin-top:3px;
+    margin-bottom:3px;
+    text-align:center;
     font-weight: 200;
 }
 
@@ -786,7 +804,7 @@ a.elink{
 }
 
 a.elink:hover{
-    color: #911A20;
+    color: rgb(243, 45, 55);
     font-weight: 600;
 }
 
@@ -827,7 +845,7 @@ nav.menu li{
 }
 
 a.navvy:hover{
-    color:#911A20;
+    color: rgb(243, 45, 55);
     
 }
     
@@ -1417,11 +1435,7 @@ embed, iframe, img, object, video { max-width: 100%; }
     }
 
     .city{
-        text-align: left;
-        font-size: 1.7rem;
-        color:black;
-        font-weight: 600;
-        line-height: 1.7;
+        font-size: 1.5rem;
         margin-top:10px;
     }
 
@@ -1446,6 +1460,7 @@ embed, iframe, img, object, video { max-width: 100%; }
         font-weight: 500;
         color: black;
         margin-top: 10px;
+        padding-top:7px;
     }
 
     .lunch{
@@ -1483,17 +1498,10 @@ embed, iframe, img, object, video { max-width: 100%; }
     }
                
     a.elink{
-        color: green;
-        font-size: .8rem;
-        text-decoration: none;
-        transition: all 0.5s ease-in-out;
+        font-size: 1rem;
         text-align: center;
     }
 
-    a.elink:hover{
-        color: #911A20;
-        font-weight: 600;
-    }
 
     a{
         color: white;
