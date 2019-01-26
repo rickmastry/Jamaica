@@ -126,7 +126,7 @@ a.nav:hover{
     min-height: 500px;
     height: 100vh;
     /*width:100vw;*/
-    background: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/hcjr2.png");
+    background: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("../img/hcjr2.png");
     background-position: center; 
     background-size: cover; 
     border-bottom: 2px solid black;
@@ -337,7 +337,7 @@ p.ours{
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
-    background-image:url("/img/jabk.jpg");
+    background-image:url("../img/jabk.jpg");
     width:100%;
     height:900px;
     background-position:  center ; 
@@ -420,7 +420,7 @@ h6.dfj{
     width: 100%;
     height: 200px;
     background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
-    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/jerk.jpg");
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("../img/jerk.jpg");
     background-position:  center ; 
     background-size: cover; 
     position: relative;
@@ -430,7 +430,7 @@ h6.dfj{
     width: 100%;
     height: 200px;
     background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
-    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/curry.jpg");
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("../img/curry.jpg");
     background-position:  center ; 
     background-size: cover; 
     position: relative;
@@ -440,7 +440,7 @@ h6.dfj{
     width: 100%;
     height: 200px;
     background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
-    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/brown.png");
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("../img/brown.png");
     background-position:  center ; 
     background-size: cover; 
     position: relative;
@@ -880,7 +880,7 @@ a.icons:hover{
     margin:0;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    background: url("/img/jabk.jpg");
+    background: url("../img/jabk.jpg");
     width:100%;
     height:1500px;
     background-position:  center ; 
@@ -902,7 +902,7 @@ a.icons:hover{
 }
 
 .fullmenu-container{
-    background-image: url("/img/jabk.jpg");
+    background-image: url("../img/jabk.jpg");
     width:100%;
     height: 100%;
 }
@@ -1190,7 +1190,7 @@ embed, iframe, img, object, video { max-width: 100%; }
         border-top: 3px solid black;
         border-bottom: 3px solid black;
         background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
-        background-image:url("/img/jabk.jpg");
+        background-image:url("../img/jabk.jpg");
         max-width:100%;
         height:1385px;
         background-position:  center ; 
