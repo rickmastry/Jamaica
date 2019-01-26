@@ -308,7 +308,7 @@ p.ours{
     max-width:400px;
     height: 400px;
     background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), 
-    url("..img/oxgoat.jpg");
+    url("../img/oxgoat.jpg");
     background-position: center ; 
     background-size: cover; 
     margin: 0 auto;
