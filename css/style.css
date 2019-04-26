@@ -1433,8 +1433,8 @@ embed, iframe, img, object, video { max-width: 100%; }
     }
 
     p.review{
-        font-size:.75rem;
-        padding-right: 25px;
+        font-size:1rem;
+        padding-right: 2px;
     }
 
     a.unslider-arrow.prev, a.unslider-arrow.next{
