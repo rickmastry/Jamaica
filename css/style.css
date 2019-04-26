@@ -623,19 +623,19 @@ p.author{
  }
 
  .rev-title{
-     text-align: right;
-     color:black;
-     padding-right: 50px;
-     padding-top: 50px;
-     font-size: 1.75rem;
-     font-weight: 100;
-     letter-spacing: .3em;
+     text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-size: 2.75rem;
+    font-weight: 100;
+    letter-spacing: .3em;
  }
 
  h1.accolades{
-     color: black;
+    color: black;
      line-height: 1;
-     padding-right: 50px;
+     font-size: 40px;
+     text-align:left;
  }
 
  .review-div p{
@@ -1188,7 +1188,7 @@ embed, iframe, img, object, video { max-width: 100%; }
     }
 
     p.ours{
-    font-size: .75rem;
+    font-size: 1rem;
     }
 
     .reserve-btn{
@@ -1383,20 +1383,25 @@ embed, iframe, img, object, video { max-width: 100%; }
      }
 
      h1.accolades{
+         padding-right: 20px;
          color: black;
          line-height: 1;
-         padding-right: 6px;
+         font-size:40px;
+         text-align:left;
      }
 
       .review-div p{
       font-size: 1rem;
     }
     .side-img{
+       display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
         padding-top: 1.25px;
         position: relative;
         height: 300px;
         width: 300px;
-        text-align: left;
     }
 
     img{
