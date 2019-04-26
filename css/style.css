@@ -1434,7 +1434,7 @@ embed, iframe, img, object, video { max-width: 100%; }
 
     p.review{
         font-size:1rem;
-        padding-right: 2px;
+        padding-right: 5px;
     }
 
     a.unslider-arrow.prev, a.unslider-arrow.next{
