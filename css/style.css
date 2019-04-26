@@ -175,6 +175,24 @@ h1{
     z-index: 2;
 }
 
+#and{
+    text-align:center;
+    font-weight: 200;
+    color:white;
+    font-size:1.5rem;
+}
+
+.sectitle{
+    font-family: 'Rozha One';
+    text-transform: uppercase;
+    color:white;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: .1em;
+    padding-right: 100px;
+    z-index: 2;
+}
+
 h1.hjr{
     position: relative;
     font-family: 'Rozha One';
@@ -1079,6 +1097,30 @@ embed, iframe, img, object, video { max-width: 100%; }
         letter-spacing: .2rem;
         padding-right: 0px;
     }
+	
+ .sectitle{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 300;
+        margin-top: 10px;
+        align-items: center;
+        align-content: center;
+        letter-spacing: .2rem;
+        padding-right: 0px;
+    }
+    #and{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+        align-items: center;
+        align-content: center;
+        letter-spacing: .2rem;
+        padding-right: 0px;
+    }	
 
   
   
