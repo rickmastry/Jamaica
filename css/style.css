@@ -687,6 +687,9 @@ strong{
 
 p.review{
     font-size:1.5rem;
+    text-align: left;	
+     padding-right:15px;
+}	
 }
 
 a.unslider-arrow.prev, a.unslider-arrow.next{
