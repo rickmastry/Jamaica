@@ -170,7 +170,6 @@ h1{
     color:white;
     font-weight: 300;
     font-size: 3rem;
-    padding-right: 100px;
     text-align: right;
     z-index: 2;
 }
@@ -189,7 +188,6 @@ h1{
     font-weight: 300;
     font-size: 3rem;
     letter-spacing: .1em;
-    padding-right: 100px;
     z-index: 2;
 }
 
