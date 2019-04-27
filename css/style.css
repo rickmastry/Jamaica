@@ -1679,7 +1679,7 @@ embed, iframe, img, object, video { max-width: 100%; }
 
 @media screen and (max-width: 846px) and (orientation: landscape){
 	h5.welcome{
-	margin-top:120px;
+	margin-top:80px;
 	}
 	.tpnav a{
 	 padding-top:1px;
