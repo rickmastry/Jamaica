@@ -1079,7 +1079,7 @@ embed, iframe, img, object, video { max-width: 100%; }
     font-size:1.5rem;
     text-align: center;
     letter-spacing: .2em;
-    margin-top: 120px ;
+    margin-top: 120px;
     margin-bottom:2px;
     z-index: 2; 
     }
@@ -1675,4 +1675,16 @@ embed, iframe, img, object, video { max-width: 100%; }
     display: block;
         }
        
+}
+
+@media screen and (max-width: 846px) and (orientation: landscape){
+	h5.welcome{
+	margin-top:120px;
+	}
+	.tpnav a{
+	 padding-top:1px;
+	}
+	nav.topnav li{
+	padding-bottom:0px
+	}
 }
