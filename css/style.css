@@ -1494,7 +1494,7 @@ embed, iframe, img, object, video { max-width: 100%; }
 
     strong.email, p.email{
         text-align: left;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         color:black;
         font-weight: 600;
     }
