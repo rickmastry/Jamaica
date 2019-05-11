@@ -322,8 +322,7 @@ p.ours{
 .video-img{
     max-width:400px;
     height: 400px;
-    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), 
-    url("../img/oxgoat.jpg");
+    background-image: url("../img/oxgoat.jpg");
     background-position: center ; 
     background-size: cover; 
     margin: 0 auto;
@@ -435,7 +434,7 @@ h6.dfj{
     width: 100%;
     height: 200px;
     background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
-    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("../img/jerk.jpg");
+    background-image: url("../img/jerk.jpg");
     background-position:  center ; 
     background-size: cover; 
     position: relative;
@@ -445,7 +444,7 @@ h6.dfj{
     width: 100%;
     height: 200px;
     background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
-    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("../img/curry.jpg");
+    background-image: url("../img/curry.jpg");
     background-position:  center ; 
     background-size: cover; 
     position: relative;
@@ -455,7 +454,7 @@ h6.dfj{
     width: 100%;
     height: 200px;
     background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
-    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("../img/brown.png");
+    background-image: url("../img/brown.png");
     background-position:  center ; 
     background-size: cover; 
     position: relative;
